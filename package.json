@@ -1,0 +1,28 @@
+{
+  "name": "portfolio_bootstrap",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J2ZROMERO/Portfolio_bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J2ZROMERO/Portfolio_bootstrap/issues"
+  },
+  "homepage": "https://github.com/J2ZROMERO/Portfolio_bootstrap#readme",
+  "devDependencies": {
+    "sass": "^1.61.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha3"
+  }
+}
