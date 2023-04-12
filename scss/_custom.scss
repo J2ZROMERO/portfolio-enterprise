@@ -2,13 +2,18 @@
 $blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
-$pink:    #d63384 !default;
+$pink:    #d122e3 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
 $teal:    #20c997 !default;
 $cyan:    #0dcaf0 !default;
+
+// my theme colors
+$purple-dark:  #9926f0 !default;
+$purple-ligth:  #BB6EF5 !default;
+
 
 // scss-docs-start gray-colors-map
 $white:    #fff    ;
@@ -24,7 +29,7 @@ $gray-900: #212529 ;
 $black:    #000    ;
 // import bootstrap 5
 
-$primary: $purple;
+$primary: $purple-dark;
 $secondary: $pink;
 // icon variables
 $accordion-icon-color:                    $primary;
