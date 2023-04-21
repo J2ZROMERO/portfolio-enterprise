@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
 </head>
 <body>
     <!-- navbar section -->
@@ -45,7 +46,7 @@
             <!-- start the content for the intro -->
             <div class="col-md-6 intros">
               <h1>
-                <span class="display-2--intro">Hey! I'm Patric</span>
+                <span class="display-2--intro">Hey! I'm Jose</span>
                 <span class="display-2--description lh-base">This is a multi-purpose responsive layout created with bootstrap v5.
                   (here you can place your description text)
                 </span>
@@ -59,8 +60,8 @@
           <!-- start the content for the video -->
           <div class="col-md-6 intros text-end">
             <div class="video-box">
-              <img src="assets/img/art/intro-section-illustration.png" alt="video illustration" clas="img-fluid">
-            <a href="#" class="position-absolute top-50 start-50 translate-middle">
+              <img src="assets/img/art/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+            <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
               <span>
                 <i class="fas fa-play-circle"></i>
               </span>
@@ -73,6 +74,7 @@
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,133.3C384,160,480,224,576,213.3C672,203,768,117,864,112C960,107,1056,181,1152,197.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        
       </section>
       
 
@@ -82,6 +84,16 @@
 
 
 
+      <script src="assets/vendors/js/glightbox.min.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'href': 'https://www.youtube.com/watch?v=hGIW2fDb0jg',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+            'autoplayVideos': true
+});
+    </script>
 </body>
 </html>
