@@ -49,6 +49,17 @@
 // Display 3
 .display-3 {
     font-family: poppins, sans-serif;
+    &--title {
+        font-size: 2.8rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
 }
 
 // Border right
