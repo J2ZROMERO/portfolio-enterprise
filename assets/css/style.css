@@ -12061,6 +12061,19 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: #fff;
+}
+.form button a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 .intro-section {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
   padding: 10rem 0 0 0;
