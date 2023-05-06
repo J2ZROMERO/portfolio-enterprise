@@ -1,0 +1,44 @@
+@use '../_custom.scss' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    padding-top: 1rem;
+    background-color: $footer;
+}
+
+// style the contact box content
+.contact-box {
+ position: relative;
+    &__icon {
+        width: 2rem;
+        stroke: $primary;
+        padding-top: 0.5rem;        
+        @include media-breakpoint-up(sm) {
+            width: 4rem;
+        }
+    }
+
+    &__info {
+        padding: 0.4rem;
+        font-weight: 600;
+
+        &--title {
+            color: $white;
+            text-decoration: none;
+            font-size: 1rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1.4rem;
+            }
+        }
+
+        &--subtitle {
+            color: $gray-600;
+            text-decoration: none;
+            font-size: 0.8rem;
+            @include media-breakpoint-up(sm) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
