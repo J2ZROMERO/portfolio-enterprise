@@ -12092,6 +12092,23 @@ textarea.form-control-lg {
   }
 }
 
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #9926f0;
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #f8f9fa;
