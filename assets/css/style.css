@@ -12079,6 +12079,19 @@ textarea.form-control-lg {
   }
 }
 
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
+  }
+}
+
 .get-started {
   padding: 4rem 0;
   background-color: #f8f9fa;
