@@ -2,15 +2,15 @@
 @use '../components/mixins' as *;
 
 .get-started {
-    padding: 4rem 0;
-    background-color: $gray-100;
+  padding: 4rem 0;
+  background-color: $gray-100;
 }
 
 .cta-info {
- padding: 3rem;   
- margin: 1rem 0;
+  padding: 3rem;
+  margin: 1rem 0;
 
- &__list {
+  &__list {
     position: relative;
     list-style: none;
     display: block;
@@ -19,27 +19,28 @@
     margin-bottom: 0.7rem;
 
     li::before {
-     font-family: "Font Awesome 6 Free";   
-     content: "\f00c";
-     font-weight: 600;
-     margin-right: 0.4rem;
-     font-size: 1.2rem;
+      /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+      font-family: "Font Awesome 6 Free";
+      content: "\f00c";
+      font-weight: 600;
+      margin-right: 0.4rem;
+      font-size: 1.2rem;
     }
- }
+  }
 }
 
 // Form content
 .form {
-    padding: 3rem;
+  padding: 3rem;
 
-    button {
-        border:none;
-        color: $white;
+  button {
+    border: none;
+    color: $white;
 
-        a{
-            color: $white;
-            text-decoration: none;
-            text-transform: capitalize;
-        }
+    a {
+      color: $white;
+      text-decoration: none;
+      text-transform: capitalize;
     }
+  }
 }

@@ -2,114 +2,122 @@
 @use '../components/mixins' as *;
 
 .footer {
-    padding-top: 1rem;
-    background-color: $footer;
+  padding-top: 1rem;
+  background-color: $footer;
 }
 
 // style the contact box content
 .contact-box {
- position: relative;
-    &__icon {
-        width: 2rem;
-        stroke: $primary;
-        padding-top: 0.5rem;        
-        @include media-breakpoint-up(sm) {
-            width: 4rem;
-        }
+  position: relative;
+
+  &__icon {
+    width: 2rem;
+    stroke: $primary;
+    padding-top: 0.5rem;
+
+    @include media-breakpoint-up(sm) {
+      width: 4rem;
+    }
+  }
+
+  &__info {
+    padding: 0.4rem;
+    font-weight: 600;
+
+    &--title {
+      color: $white;
+      text-decoration: none;
+      font-size: 1rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 1.4rem;
+      }
     }
 
-    &__info {
-        padding: 0.4rem;
-        font-weight: 600;
+    &--subtitle {
+      color: $gray-600;
+      text-decoration: none;
+      font-size: 0.8rem;
 
-        &--title {
-            color: $white;
-            text-decoration: none;
-            font-size: 1rem;
-            @include media-breakpoint-up(sm) {
-                font-size: 1.4rem;
-            }
-        }
-
-        &--subtitle {
-            color: $gray-600;
-            text-decoration: none;
-            font-size: 0.8rem;
-            @include media-breakpoint-up(sm) {
-                font-size: 1rem;
-            }
-        }
+      @include media-breakpoint-up(sm) {
+        font-size: 1rem;
+      }
     }
-
+  }
 }
 
 // Style the social media content
-.footer-sm{
-    a{
-        color: $white;
-        
-        i {
-            font-size: 1rem;
-            margin-left: 1rem;
-            @include media-breakpoint-up(sm) {
-                font-size: 1.6rem;
-            }
-        }
+.footer-sm {
+  a {
+    color: $white;
+
+    i {
+      font-size: 1rem;
+      margin-left: 1rem;
+
+      @include media-breakpoint-up(sm) {
+        font-size: 1.6rem;
+      }
     }
+  }
 }
 
 // Style the company info content
 .company-list {
-    display: block;
-    list-style-type: none;
-    position: relative;
+  display: block;
+  list-style-type: none;
+  position: relative;
 
-    li {
-        margin-bottom: 0.5rem;
-        text-decoration: none;
+  li {
+    margin-bottom: 0.5rem;
+    text-decoration: none;
 
-        a{
-            color: $white; 
-            text-decoration: none;
-            &:hover {
-                color: $primary;
-            }
-        }
+    a {
+      color: $white;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
     }
+  }
 }
 
 // Style the copyright content
-.footer-bottom { 
-    background-color: $black;
-    &__copyright {
-        color: $gray-600;
-        font-weight: 400;
+.footer-bottom {
+  background-color: $black;
 
-        a { 
-            color: $gray-300;
-            text-decoration: none;
-            &:hover {
-                color: $primary;
-                text-decoration: underline;
-            }
-        }
+  &__copyright {
+    color: $gray-600;
+    font-weight: 400;
+    /* stylelint-disable-next-line no-descending-specificity */
+    a {
+      color: $gray-300;
+      text-decoration: none;
+      /* stylelint-disable-next-line no-descending-specificity */
+      &:hover {
+        color: $primary;
+        text-decoration: underline;
+      }
     }
+  }
 }
 
 // Style the back to top button
 
 .back-to-top {
-    position: fixed;
-    width: 3rem;
-    height: 3rem;
-    right: 1.875rem;
-    bottom: 1.875rem;
-    z-index: 9999;
-    background-color: $primary;
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+  background-color: $primary;
+  /* stylelint-disable-next-line no-descending-specificity */
+  i {
+    color: $white;
+    font-size: 1rem;
 
-    i {
-        color: $white;
-        font-size: 1rem;
-        @include absoluteCenter;
-    }
+    @include absoluteCenter;
+  }
 }

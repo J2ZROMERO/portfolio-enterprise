@@ -12,21 +12,21 @@ $cyan:    #0dcaf0 !default;
 
 // my theme colors
 $purple-dark:  #9926f0 !default;
-$purple-light:  #BB6EF5 !default;
+$purple-light:  #bb6ef5 !default;
 $footer: #151414;
 
 // scss-docs-start gray-colors-map
-$white:    #fff    ;
-$gray-100: #f8f9fa ;
-$gray-200: #e9ecef ;
-$gray-300: #dee2e6 ;
-$gray-400: #ced4da ;
-$gray-500: #adb5bd ;
-$gray-600: #6c757d ;
-$gray-700: #495057 ;
-$gray-800: #343a40 ;
-$gray-900: #212529 ;
-$black:    #000    ;
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
 // import bootstrap 5
 
 $primary: $purple-dark;
@@ -43,4 +43,5 @@ $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w
 
 // accordion icon width
 $accordion-icon-width:                    1.75rem !default;
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

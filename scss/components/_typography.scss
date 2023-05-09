@@ -1,78 +1,79 @@
 @use '../custom' as *;
 
 .display-2 {
-    margin-bottom: 1rem;
-    text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 4.5rem;
     font-family: 'Poppins', sans-serif;
-    &--intro {
-        display: inline-block;
-        font-weight: 700;
-        font-size: 4.5rem;
-        font-family: 'Poppins', sans-serif;
-    }
+  }
 
-    &--description {
-        font-size: 1.2rem;
-        display: block;
-        margin-top: 2.2rem;
-        text-transform: none ;
+  &--description {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 2.2rem;
+    text-transform: none;
 
-        @include media-breakpoint-up(lg) {
-            font-size: 1.5rem;
-            display: inline-block;
-        }
+    @include media-breakpoint-up(lg) {
+      font-size: 1.5rem;
+      display: inline-block;
     }
+  }
 }
 
 // Heading line
 
 .heading-line::before {
-    content:"";
-    width: 10rem;
-    height: 0.1rem;
-    margin: 0 auto;
-    display: block;
-    background-color: $primary;
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  margin: 0 auto;
+  display: block;
+  background-color: $primary;
 }
 
 .heading-line::after {
-    content:"";
-    width: 2rem;
-    padding-top: 0.5rem;
-    height: 0.2rem;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    background-color: $primary;
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $primary;
 }
 
 // Display 3
 .display-3 {
-    font-family: poppins, sans-serif;
-    &--title {
-        font-size: 1.2rem;
-        text-transform: capitalize;
-        font-weight: 600;
-        font-family: 'Poppins', sans-serif;
-        display: inline-block;
-        background-image: linear-gradient(to right, $primary, $secondary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+  font-family: poppins, sans-serif;
 
-        @include media-breakpoint-up(lg){
-            font-size: 1.8rem;
-        }
+  &--title {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, $primary, $secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.8rem;
     }
-
+  }
 }
 
 // Border right
 .border-right {
-    border-right:  0.1rem solid $gray-300;
-    height: 100%;
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
 }
 
-// Gradient BG 
+// Gradient BG
 .gradient {
-    background: linear-gradient(to right, rgba($primary,0.95), rgba($secondary,0.95));
+  background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
 }
