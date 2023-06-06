@@ -76,7 +76,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://j2zromero.github.io/responsive-design--bootstrap/)
+- [Live Demo Link](https://j2zromero.github.io/portfolio-enterprise/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,10 +96,10 @@ In order to run this project you need:
 
 ### Setup
 
-Clone [this repository](https://github.com/J2ZROMERO/Portfolio_bootstrap) to your desired folder:
+Clone [this repository](https://j2zromero.github.io/portfolio-enterprise/) to your desired folder:
 
 > If you just want to take a look quickly, make a fork and open the project in the web browser by adding ".dev" instead of ."com" in the repo link.
-- Example : https://github.com/J2ZROMERO/Portfolio_bootstrap
+- Example : https://github.dev/J2ZROMERO/portfolio-enterprise
 - 
 ### Install
 
@@ -160,7 +160,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/J2ZROMERO/Portfolio_bootstrap/issues).
+Feel free to check the [issues page](https://github.dev/J2ZROMERO/portfolio-enterprise/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,6 +195,6 @@ Feel free to check the [issues page](https://github.com/J2ZROMERO/Portfolio_boot
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/J2ZROMERO/Portfolio_bootstrap/blob/dev/MIT.md).
+_NOTE: we recommend using the [MIT license](https://github.com/J2ZROMERO/portfolio_enterprise/blob/dev/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
