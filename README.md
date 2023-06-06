@@ -27,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio bootstrap] <a name="portfolio-bootstrap"></a>
+# 📖 [Portfolio enterprise] <a name="portfolio-bootstrap"></a>
 
-> Fully responsive portfolio website using bootstrap 5.
+> Fully responsive portfolio, uses several features that make the page very engaging: videos, events, and typography are some of them.
 
 
 ## 🛠 Built With <a name="built-with"></a>
