@@ -76,7 +76,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://j2zromero.github.io/Portfolio_bootstrap/)
+- [Live Demo Link](https://j2zromero.github.io/responsive-design--bootstrap/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
