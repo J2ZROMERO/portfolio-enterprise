@@ -9,7 +9,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[contenthash].js',
-        clean: true
+        clean: true,
+        assetModuleFilename: '[name][ext]'
     },
     devServer: {
         static: {
@@ -26,13 +27,52 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.(scss|sass|css)$/,
                 use: [
                     'style-loader', // 3. Inject styles into DOM
                     'css-loader', // 2. Turns css into commonjs
                     'sass-loader' // 1. Turns sass into css
                 ]
             },
+            {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: "babel-loader",
+                    options:{
+                        presets: ['@babel/preset-env']
+                    }
+                }
+
+            },
+            {
+                test: /\.(png|jpe?g|gif|svg)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                    //   outputPath: 'src/assets/img/',
+                    //   publicPath: 'images/',
+                    },
+                  },
+                ],
+              },
+            {
+                test: /fontawesome-free\.(svg|eot|ttf|woff|woff2)$/,
+                use: [
+                  {
+                    loader: 'file-loader',
+                    options: {
+                      name: '[name].[ext]',
+                    //   outputPath: 'fonts/',
+                    //   publicPath: '../fonts/',
+                    },
+                  },
+                ],
+              }
+              
+
         ],
       },
 plugins: [

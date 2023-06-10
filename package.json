@@ -26,6 +26,7 @@
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.2",
     "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
     "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.2",
     "postcss-loader": "^7.3.3",
