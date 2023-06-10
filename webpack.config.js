@@ -51,13 +51,13 @@ module.exports = {
                   {
                     loader: 'file-loader',
                     options: {
-                      name: '[name].[ext]',
-                    //   outputPath: 'src/assets/img/',
-                    //   publicPath: 'images/',
+                      name: '[path][name].[ext]',
+                    //   outputPath: 'img/',
                     },
                   },
                 ],
               },
+              
             {
                 test: /fontawesome-free\.(svg|eot|ttf|woff|woff2)$/,
                 use: [
