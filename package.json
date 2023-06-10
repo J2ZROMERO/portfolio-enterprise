@@ -4,10 +4,11 @@
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss:assets/css",
+    "compile:sass": "sass --watch src/scss:assets/css",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "reduceCss": "purgecss --css assets/css/style.css --content *.html --output assets/css",
-    "build": "webpack --mode production"
+    "reduceCss": "purgecss --css src/assets/css/style.css --content src/*.html --output src/assets/css",
+    "build": "webpack",
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -20,16 +21,24 @@
   },
   "homepage": "https://github.com/J2ZROMERO/Portfolio_bootstrap#readme",
   "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
     "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.2",
+    "postcss-loader": "^7.3.3",
     "purgecss": "^5.0.0",
-    "sass": "^1.61.0",
+    "sass": "^1.63.3",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
     "webpack": "^5.86.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
-    "autoprefixer": "^10.4.14",
     "bootstrap": "^5.3.0-alpha3"
   }
 }
