@@ -1,6 +1,7 @@
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import '../node_modules/@fortawesome/fontawesome-free/js/all.js';
-import '/src/assets/vendors/css/glightbox.min.css';
+import GLightbox from '/node_modules/glightbox';
+import '/node_modules/glightbox/dist/css/glightbox.min.css';
 import '/src/assets/js/bootstrap.bundle.js';
 import './scss/style.scss';
 
@@ -20,7 +21,7 @@ function importAll(r) {
   require.context('/src/assets/img/testimonials', false, /\.(jpg|png)$/)
   
   
-      const lightbox = lightbox({
+  const lightbox = GLightbox({ 
         'href': 'https://www.youtube.com/watch?v=8YA825ZNAIE',
             'type': 'video',
             'source': 'youtube', //vimeo, youtube or local
