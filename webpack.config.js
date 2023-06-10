@@ -21,7 +21,8 @@ module: {
 plugins: [
     new HtmlWebpackPlugin({
         title: 'Enterprise',
-        filename: 'other.html',
+        filename: 'index.html',
+        template: path.resolve(__dirname, 'src/template.html'),
     }),
 ],
 }
