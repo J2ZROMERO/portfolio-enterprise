@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -16,5 +17,11 @@ module: {
             use: ['style-loader','css-loader','sass-loader']   
         },
     ]
-}
+},
+plugins: [
+    new HtmlWebpackPlugin({
+        title: 'Enterprise',
+        filename: 'other.html',
+    }),
+],
 }
