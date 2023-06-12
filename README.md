@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio bootstrap\] ](#-portfolio-bootstrap-)
+- [📖 \[Portfolio enterprise\] ](#-portfolio-enterprise-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -76,7 +76,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://j2zromero.github.io/portfolio-enterprise/)
+- [Live Demo Link](https://j2zromero.github.io/portfolio-enterprise/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -12152,7 +12152,7 @@ textarea.form-control-lg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.intros .video-box a span i {
+.intros .video-box a span .icon-video-fas {
   font-size: 6rem;
   color: #d122e3;
 }
