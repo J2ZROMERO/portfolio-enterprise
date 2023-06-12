@@ -51,27 +51,20 @@ module.exports = {
                   {
                     loader: 'file-loader',
                     options: {
-                      name: '[path][name].[ext]',
+                      name: '[name].[ext]',
                     //   outputPath: 'img/',
                     },
                   },
                 ],
               },
               
-            {
+              {
                 test: /fontawesome-free\.(svg|eot|ttf|woff|woff2)$/,
-                use: [
-                  {
-                    loader: 'file-loader',
-                    options: {
-                      name: '[name].[ext]',
-                    //   outputPath: 'fonts/',
-                    //   publicPath: '../fonts/',
-                    },
-                  },
-                ],
-              }
-              
+                type: 'asset/resource',
+                generator: {
+                  filename: '[path][name][ext]'
+                }
+              }  
 
         ],
       },

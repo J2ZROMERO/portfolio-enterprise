@@ -5,14 +5,8 @@ import '/node_modules/glightbox/dist/css/glightbox.min.css';
 import '/src/assets/js/bootstrap.bundle.js';
 import './scss/style.scss';
 
-function importAll(r) {
-    let images = {};
-    r.keys().forEach((key) => {
-      images[key] = r(key);
-    });
-    return images;
-  }
-  
+
+
   require.context('/src/assets/img', false, /\.(jpg|png)$/)
   require.context('/src/assets/img/art', false, /\.(jpg|png)$/)
   require.context('/src/assets/img/campanies', false, /\.(jpg|png)$/)
